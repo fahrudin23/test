@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  background: #191919;
+}
+.body header {
+  /* background: #fff; */
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  color: #fff;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+}
+.header-text a {
+  color: #fff;
+  transition: 0.8s;
+}
+.header-text a:hover {
+  transform: scale(1.1);
+  color: blue;
+}
+#hero {
+  margin: 50px 0;
+}
+.imghero {
+  width: 550px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 89px; */
+  margin: 30px;
+  text-align: left;
+}
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #fff;
+}
+.hero-text h5 {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 50px;
+  text-align: left;
+}
+.main-text h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #fff;
+}
+.main-text button {
+  width: 178px;
+  height: 51px;
+  background: #118da8;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+}
+.main-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-block-text h4 {
+  font-size: 18px;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.main-block-text h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 70px;
+  color: #fff;
+  padding: 10px 0;
+}
+.main-block-text p {
+  font-size: 18px;
+  font-weight: 200;
+  color: #ffffff60;
+  padding: 30px 0;
+  line-height: 40px;
+}
+.main-block-text h3 {
+  color: #118da8;
+  font-size: 16px;
+  padding: 20px 0;
+}
+.main-block-text button {
+  width: 178px;
+  height: 51px;
+  background: #118da8;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+}
+.main-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 40px 0;
+  display: flex;
+  /* gap: 30px; */
+  background: black;
+  margin: 40px 0;
+  /* padding: 30px 0; */
+  border-radius: 32px;
+}
+
+.main-block-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  /* color: #fff; */
+  /* gap: 10px 0; */
+}
+.main-block img {
+  width: 389px;
+  height: 465px;
+  top: -0.44px;
+}
